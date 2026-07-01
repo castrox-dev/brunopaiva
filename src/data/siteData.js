@@ -114,7 +114,6 @@ export const siteData = {
     hero: "/img/image copy 2.png",
     sobre: "/img/image copy 3.png",
     sobreAlt: "/img/image.png",
-    banner: ,
     banner: "/img/image copy 4.png",
     ep: "/img/image copy.png",
     gallery: [
