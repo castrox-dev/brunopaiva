@@ -4,7 +4,7 @@ import { siteData } from '../data/siteData';
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#0A0A0A' }}>
+    <section id="hero" className="relative flex items-center justify-center overflow-hidden min-h-[100vh] lg:min-h-screen" style={{ backgroundColor: '#0A0A0A' }}>
       {/* Background Image */}
       <div className="absolute inset-0">
         <img

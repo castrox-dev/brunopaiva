@@ -5,7 +5,7 @@ import { siteData } from '../data/siteData';
 
 const Spotify = () => {
   return (
-    <section id="musica" className="relative min-h-screen flex flex-col justify-center py-24 md:py-32 lg:py-40 overflow-hidden" style={{ backgroundColor: '#0A0A0A' }}>
+    <section id="musica" className="relative flex flex-col justify-center py-24 md:py-32 lg:py-40 overflow-hidden min-h-screen" style={{ backgroundColor: '#0A0A0A' }}>
       <div className="absolute inset-0">
         <img
           src={siteData.images.ep}

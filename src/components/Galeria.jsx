@@ -26,7 +26,7 @@ const Galeria = () => {
   };
 
   return (
-    <section id="galeria" className="relative min-h-screen flex flex-col justify-center py-24 md:py-32 lg:py-40 overflow-hidden" style={{ backgroundColor: '#1A1A1A' }}>
+    <section id="galeria" className="relative flex flex-col justify-center py-24 md:py-32 lg:py-40 overflow-hidden min-h-screen" style={{ backgroundColor: '#1A1A1A' }}>
       <div className="absolute top-0 left-0 right-0 divider-subtle" />
 
       <div className="px-6 sm:px-8 lg:px-12" style={{ width: '100%', maxWidth: '80rem', margin: '0 auto' }}>

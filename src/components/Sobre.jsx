@@ -11,7 +11,7 @@ const Sobre = () => {
   ];
 
   return (
-    <section id="sobre" className="relative min-h-screen flex flex-col justify-center py-24 md:py-32 lg:py-40 overflow-hidden" style={{ background: 'linear-gradient(180deg, #0A0A0A 0%, #141414 100%)' }}>
+    <section id="sobre" className="relative flex flex-col justify-center py-24 md:py-32 lg:py-40 overflow-hidden min-h-screen" style={{ background: 'linear-gradient(180deg, #0A0A0A 0%, #141414 100%)' }}>
       <div className="absolute top-0 left-0 right-0 divider-gold" />
 
       <div className="px-6 sm:px-8 lg:px-12" style={{ width: '100%', maxWidth: '80rem', margin: '0 auto' }}>
@@ -55,7 +55,7 @@ const Sobre = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4" style={{ gap: '16px' }}>
+              <div className="grid grid-cols-2 sm:grid-cols-4" style={{ gap: '16px' }}>
                 {stats.map((stat, index) => (
                   <StaggerChildren key={stat.label}>
                     <StaggerItem>
