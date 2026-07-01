@@ -1,0 +1,37 @@
+{
+  "name": "bruno-paiva-landing",
+  "version": "1.0.0",
+  "description": "Landing Page Premium - Bruno Paiva | Sambista",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "keywords": [
+    "bruno paiva",
+    "sambista",
+    "landing page",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": "Bruno Paiva",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "^12.42.0",
+    "lucide-react": "^1.21.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-icons": "^5.6.0",
+    "react-intersection-observer": "^10.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@vitejs/plugin-react": "^6.0.3",
+    "autoprefixer": "^10.5.2",
+    "tailwindcss": "^4.3.1",
+    "vite": "^8.1.0"
+  }
+}
